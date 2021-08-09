@@ -4,6 +4,18 @@
     #hamburger-nav {
         display: none;
     }
+    #bg-pattern-footer-mobile {
+        display: none;
+    }
+    #pattern1-mobile {
+        display: none;
+    }
+    #pattern2-mobile {
+        display: none;
+    }
+    #mobile-card-pattern {
+        display: none;
+    }
 }
 
 @media (min-width: 1125px) and (max-width: 1186px) {
@@ -21,8 +33,13 @@
     #pattern2-mobile {
         display: none;
     }
-
+    #bg-pattern-footer-mobile {
+        display: none;
+    }
     #hamburger-nav {
+        display: none;
+    }
+    #mobile-card-pattern {
         display: none;
     }
 }
@@ -47,6 +64,9 @@
     }
 
     #hamburger-nav {
+        display: none;
+    }
+    #mobile-card-pattern {
         display: none;
     }
 }
@@ -92,6 +112,9 @@
         display: none;
     }
     #hamburger-nav {
+        display: none;
+    }
+    #mobile-card-pattern {
         display: none;
     }
 }
@@ -643,7 +666,8 @@
     }
     #pattern2-mobile {
         position: absolute;
-        top: 29.2em;
+        //top: 29.2em;
+        top :29.4em;
         left: 0;
         z-index: 1;
     }
